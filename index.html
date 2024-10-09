@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Password Generator by Rakib</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>Dev by Rakib - Social: <a href="https://guns.lol/rakib0x" target="_blank">Rakib's Social</a></h2>
+    </header>
+
+    <div class="box">
+      <h1>Generate a <br /> <span>Random Password</span></h1>
+
+      <div class="password-box">
+        <input type="text" name="passwordbox" id="password" placeholder="Generated Password" />
+        <button class="icon" onClick="copybutton()">
+          <i class="fa-regular fa-copy"></i>
+        </button>
+      </div>
+
+      <button class="button" onClick="passwordgen()">Generate Password</button>
+      <!-- Animated Message Display -->
+      <p id="message" class="message">Password Generated!</p>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
